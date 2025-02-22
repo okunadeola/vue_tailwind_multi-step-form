@@ -13,7 +13,7 @@ defineProps<{
 const emit = defineEmits<{
     (event:"selectAddon", id: number): void
 }>()
-
+ 
 
 emit('selectAddon', 3)
 </script>
